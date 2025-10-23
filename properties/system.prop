@@ -5,6 +5,9 @@ persist.vendor.cne.feature=1
 ro.product.marketname=POCO F7
 ro.product.mod_device=onyx_global
 
+# Fake encryption
+ro.crypto.state=encrypted
+
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 
