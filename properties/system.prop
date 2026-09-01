@@ -21,6 +21,11 @@ ro.mediaserver.64b.enable=true
 ro.media.recorder-max-base-layer-fps=60
 ro.media.xml_variant.profiles=_tuna_v0
 
+# ProjectInfinity-X
+ro.product.marketname=POCO F7
+ro.infinity.soc=Snapdragon 8s Gen 4
+ro.infinity.camera=50MP + 8MP
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
