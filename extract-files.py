@@ -105,10 +105,8 @@ blob_fixups: blob_fixups_user_type = {
             'android.hardware.sensors-V2-ndk.so',
             'android.hardware.sensors-V3-ndk.so'
     ),
-    (
-        'vendor/etc/media_codecs_tuna_v0.xml',
-        'vendor/etc/media_codecs_tuna_v0_without_dvenc.xml',
-    ): blob_fixup()
+
+        'vendor/etc/media_codecs_tuna_v0_without_dvenc.xml': blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
 
     'odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl': blob_fixup()
